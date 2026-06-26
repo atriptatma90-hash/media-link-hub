@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T18:17:34.489646+00:00",
+  "generated_at": "2026-06-26T00:15:35.125323+00:00",
   "source": "https://github.com/fmhy/edit",
   "categories": {
     "AI": [
@@ -74,13 +74,6 @@
         "name": "Meta AI",
         "url": "https://www.meta.ai/",
         "desc": "Muse Spark / Meta Sign-Up / Unlimited",
-        "section": "AI Chatbots / Official Model Sites",
-        "mirrors": []
-      },
-      {
-        "name": "Ernie",
-        "url": "https://ernie.baidu.com/",
-        "desc": "Ernie 5.1 Thinking / 5.1 Instant",
         "section": "AI Chatbots / Official Model Sites",
         "mirrors": []
       },
@@ -215,15 +208,6 @@
         "desc": "Hy3-preview / Unlimited",
         "section": "AI Chatbots / Official Model Sites",
         "mirrors": []
-      },
-      {
-        "name": "Reka",
-        "url": "https://www.reka.ai/",
-        "desc": "Reka Flash 3.1 / Sign-Up / Discord",
-        "section": "AI Chatbots / Official Model Sites",
-        "mirrors": [
-          "https://discord.gg/jtjNSD52mf"
-        ]
       },
       {
         "name": "K2Think",
@@ -1302,6 +1286,15 @@
           "https://muryou-aigazou.com/",
           "https://discord.gg/v6KzUbPeKh",
           "https://aifreeforever.com/image-generators"
+        ]
+      },
+      {
+        "name": "ERNIE (HF)",
+        "url": "https://huggingface.co/spaces/baidu/ERNIE-Image-Turbo",
+        "desc": "/ 2 - Unlimited / Editing / Sign-Up",
+        "section": "Image Generation",
+        "mirrors": [
+          "https://huggingface.co/spaces/akhaliq/ERNIE-Image-Turbo"
         ]
       },
       {
@@ -3245,7 +3238,7 @@
       {
         "name": "Wox",
         "url": "https://github.com/Wox-launcher/Wox",
-        "desc": "Listary, Raycast, FlowLauncher / FMHY Search, Ueli / GitHub - Keystroke / App Launchers",
+        "desc": "Listary, Raycast, Flow Launcher / FMHY Search, Ueli / GitHub - Keystroke / App Launchers",
         "section": "System Tools / System Tweaks",
         "mirrors": [
           "https://www.listary.com/",
@@ -15276,13 +15269,14 @@
       {
         "name": "AniChart",
         "url": "https://anichart.net",
-        "desc": "AnimeSchedule, Anica, AnimeCountdown or LiveChart - Anime Release Charts",
+        "desc": "AnimeSchedule, Anica, AniCal / Discord, AnimeCountdown or LiveChart - Anime Release Calendars",
         "section": "Tracking / Databases / Anime Tracking / Databases / Curated Recommendations / Recommendation Tools / Calendar / Upcoming",
         "mirrors": [
           "https://animeschedule.net/",
           "https://anica.jp/",
-          "https://animecountdown.com/",
-          "https://www.livechart.me/"
+          "https://anicalendar.netlify.app/",
+          "https://discord.gg/YxphmhYga7",
+          "https://animecountdown.com/"
         ]
       },
       {
@@ -15324,7 +15318,7 @@
         "section": "Streaming Sites / Stream Aggregators",
         "mirrors": [
           "https://www.cineplay.to/",
-          "https://www.fmovies.nz",
+          "https://www.fmovies.gd/",
           "https://discord.gg/C2zGTdUbHE"
         ]
       },
@@ -15368,6 +15362,15 @@
         "section": "Streaming Sites / Stream Aggregators",
         "mirrors": [
           "https://discord.gg/6ZXNmPedkG"
+        ]
+      },
+      {
+        "name": "Cinema.BZ",
+        "url": "https://cinema.bz/",
+        "desc": "⭐ Cinema.BZ - Movies / TV / Anime / Auto-Next / Telegram",
+        "section": "Streaming Sites / Stream Aggregators",
+        "mirrors": [
+          "https://t.me/cinemabz"
         ]
       },
       {
@@ -15422,6 +15425,15 @@
         ]
       },
       {
+        "name": "Cinetaro",
+        "url": "https://cinetaro.tv/",
+        "desc": "⭐ Cinetaro - Movies / TV / Anime / Auto-Next / Discord",
+        "section": "Streaming Sites / Stream Aggregators",
+        "mirrors": [
+          "https://discord.com/invite/4yGUxdz3h9"
+        ]
+      },
+      {
         "name": "ShuttleTV",
         "url": "https://shuttletv.su/",
         "desc": "⭐ ShuttleTV, 2 - Movies / TV / Anime / Auto-Next / Discord",
@@ -15463,16 +15475,6 @@
         "section": "Streaming Sites / Stream Aggregators",
         "mirrors": [
           "https://discord.gg/sXySzk87aA"
-        ]
-      },
-      {
-        "name": "MovieBite",
-        "url": "https://moviebite.cc/",
-        "desc": "Movies / TV / Anime / Auto-Next / Telegram / Discord",
-        "section": "Streaming Sites / Stream Aggregators",
-        "mirrors": [
-          "https://t.me/+8Wluy50R049kMmVk",
-          "https://discord.gg/ygexZUCXVa"
         ]
       },
       {
@@ -15576,12 +15578,12 @@
         ]
       },
       {
-        "name": "Cinetaro",
-        "url": "https://cinetaro.tv/",
-        "desc": "Movies / TV / Anime / Auto-Next / Discord",
+        "name": "FRAME",
+        "url": "https://frameweb.pages.dev/",
+        "desc": "or SanuFlix - Movies / TV / Anime / Auto-Next",
         "section": "Streaming Sites / Stream Aggregators",
         "mirrors": [
-          "https://discord.com/invite/4yGUxdz3h9"
+          "https://sanuflix2.pages.dev/"
         ]
       },
       {
@@ -15595,11 +15597,14 @@
         ]
       },
       {
-        "name": "Chillflix",
-        "url": "https://chillflix.to/",
-        "desc": "Movies / TV / Anime",
+        "name": "MovieBite",
+        "url": "https://moviebite.cc/",
+        "desc": "Movies / TV / Anime / Auto-Next / Telegram / Discord",
         "section": "Streaming Sites / Stream Aggregators",
-        "mirrors": []
+        "mirrors": [
+          "https://t.me/+8Wluy50R049kMmVk",
+          "https://discord.gg/ygexZUCXVa"
+        ]
       },
       {
         "name": "NetPlay",
@@ -15753,7 +15758,7 @@
       {
         "name": "Aether",
         "url": "https://aether.bar/",
-        "desc": "⭐ Aether, 2 - Movies / TV / Anime / Auto-Next / Discord",
+        "desc": "⭐ Aether, 2 - Movies / TV / Anime / 4K / Auto-Next / Discord",
         "section": "Streaming Sites / Stream Aggregators / P-Stream Forks",
         "mirrors": [
           "https://aether.cx/",
@@ -15808,15 +15813,6 @@
         "desc": "Movies / TV / Anime / Auto-Next",
         "section": "Streaming Sites / Stream Aggregators / P-Stream Forks",
         "mirrors": []
-      },
-      {
-        "name": "F-Stream",
-        "url": "https://fstream.app/",
-        "desc": "2 - Movies / TV / Anime / Auto-Next",
-        "section": "Streaming Sites / Stream Aggregators / P-Stream Forks",
-        "mirrors": [
-          "https://cinepro.fstream.app/"
-        ]
       },
       {
         "name": "Vidflix",
@@ -16076,15 +16072,6 @@
         ]
       },
       {
-        "name": "Cinema.BZ",
-        "url": "https://cinema.bz/",
-        "desc": "⭐ Cinema.BZ - Movies / TV / Anime / Auto-Next / Telegram",
-        "section": "Streaming Sites / Stream Aggregators / P-Stream Forks / Dedicated-Server / Multi-Server",
-        "mirrors": [
-          "https://t.me/cinemabz"
-        ]
-      },
-      {
         "name": "CinemaOS",
         "url": "https://cinemaos.live/",
         "desc": "⭐ CinemaOS, 2, 3 or NoirX, 2 - Movies / TV / Anime / Auto-Next / Discord",
@@ -16124,15 +16111,6 @@
           "https://anixtv.in/",
           "https://anixtv.pro/",
           "https://discord.com/invite/AGsGU5KUYy"
-        ]
-      },
-      {
-        "name": "SanuFlix",
-        "url": "https://sanuflix2.pages.dev/",
-        "desc": "or FRAME - Movies / TV / Anime / Auto-Next",
-        "section": "Streaming Sites / Stream Aggregators / P-Stream Forks / Dedicated-Server / Multi-Server",
-        "mirrors": [
-          "https://frameweb.pages.dev/"
         ]
       },
       {
@@ -17181,6 +17159,17 @@
         ]
       },
       {
+        "name": "SportsBite TV",
+        "url": "https://sportsbite.lol/channels",
+        "desc": "⭐ SportsBite TV, 2 - TV / Sports / Telegram / Discord",
+        "section": "Live TV / Sports / Live TV",
+        "mirrors": [
+          "https://sportsbite.xyz/channels",
+          "https://t.me/+Zo7CoigxqRczMjRk",
+          "https://discord.gg/Qg7uRXWAhU"
+        ]
+      },
+      {
         "name": "TitanTV",
         "url": "https://titantv.com/",
         "desc": "Live TV Listings / TV Schedule",
@@ -17206,17 +17195,6 @@
         "desc": "TV / Sports",
         "section": "Live TV / Sports / Live TV",
         "mirrors": []
-      },
-      {
-        "name": "SportsBite TV",
-        "url": "https://sportsbite.lol/channels",
-        "desc": "2 - TV / Sports / Telegram / Discord",
-        "section": "Live TV / Sports / Live TV",
-        "mirrors": [
-          "https://sportsbite.xyz/channels",
-          "https://t.me/+Zo7CoigxqRczMjRk",
-          "https://discord.gg/Qg7uRXWAhU"
-        ]
       },
       {
         "name": "Xumo Play",
@@ -17554,7 +17532,7 @@
       },
       {
         "name": "TimStreams",
-        "url": "https://timstreams.net/",
+        "url": "https://timstreams.st/",
         "desc": "⭐ TimStreams - Live Events / Discord",
         "section": "Live TV / Sports / Live TV / Live Sports",
         "mirrors": [
@@ -17752,7 +17730,7 @@
       },
       {
         "name": "xyzstreams",
-        "url": "https://xyzstreams.shop/",
+        "url": "https://xyzstreams.st/",
         "desc": "",
         "section": "Live TV / Sports / Live TV / Live Sports",
         "mirrors": []
@@ -18141,6 +18119,13 @@
         "name": "123Wrestling",
         "url": "https://123wrestling.com/",
         "desc": "Wrestling Replays",
+        "section": "Live TV / Sports / Live TV / Live Sports / Sports Replays",
+        "mirrors": []
+      },
+      {
+        "name": "Archive Wrestling",
+        "url": "https://archive.org/details/wrestlingtelevision?sort=date",
+        "desc": "Classic Wrestling Replay Archive",
         "section": "Live TV / Sports / Live TV / Live Sports / Sports Replays",
         "mirrors": []
       },
@@ -19106,13 +19091,6 @@
         "mirrors": []
       },
       {
-        "name": "PrivateMovieZ",
-        "url": "https://privatemoviez.help/",
-        "desc": "Movies / TV",
-        "section": "Download Sites",
-        "mirrors": []
-      },
-      {
         "name": "SolidarityCinema",
         "url": "https://www.solidaritycinema.com/",
         "desc": "Movies",
@@ -19674,7 +19652,7 @@
       },
       {
         "name": "YTS",
-        "url": "https://yts.bz/",
+        "url": "https://yts.gg/",
         "desc": "or YifyMovies - Movies / Proxies / Status / Discord / Note",
         "section": "Torrent Sites",
         "mirrors": [
